@@ -1,102 +1,295 @@
-section a{
-  padding: 20px 0;
-text-align: center;
-margin-right: 10px;
-text-decoration: none;
-text-transform: capitalize;
-letter-spacing: 2px;
-padding: 18px;
-color: rgb(62, 127, 233);
+#c1 img,#c1, #c2, #c2 img ,#c3, #c3 img ,#c4, #c4 img,#c5,#c5 img ,#c6,#c6 img,#c7,#c7 img,#c8,#c8 img,#c9,#c9 img,#c10,#c10 img ,
+#c11,#c11 img,#c12,#c12 img,#c13,#c13 img,#c14,#c14 img{
+animation-name :c1 ; 
+animation-duration: 3s;
+animation-iteration-count:infinite;
 }
-section{
-  display: flex;
-  align-items: center;
-
-}
-.scroll-left {
-  height: 30px;	
-  overflow: hidden;
-  position: relative;
-  background: rgb(12, 12, 12);
-background: radial-gradient(circle, rgb(62, 124, 248) 0%, rgb(81, 158, 247) 100%);
-  color: rgb(248, 248, 248);
-  border: 1px solid rgb(156, 154, 150);
- }
- .scroll-left p {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  line-height: 30px;
-  text-align: center;
-  transform:translateX(100%);
-  animation: scroll-left 30s linear infinite;
- }
- @keyframes scroll-left {
-  0%   {
-  transform: translateX(100%); 		
-  }
-  100% {
-  transform: translateX(-100%); 
-  }
- }
- h5{
-  text-align: center;
-  background-color: rgb(46, 116, 255);
- }
- h1{
-  text-align: center;
-  
- }
- p{
-  text-align: left;
- }
- .about{
-  border: 5px white ridge;
-}
-
-
-
-
-
-#serve-heading{
-text-align: center;
-}
-#serve-hr{
-width: 50%;
-}
-.serveimage{
+@keyframes c1{
+from{
+border-color: blue;
 border-radius: 50%;
 }
-.serveimage:hover{
-filter: grayscale(100%);
-z-index:2;
+to{
+border-color: black;
+border-radius: 10%;
 }
-.serve-parah{
-text-align: center;
-font-family: "Andalus";
-margin-left: 10%;
-} 
-.serve-parah:hover{
-text-decoration: underline white;
+}
+ #s1 img,#s1, #s2, #s2 img ,#s3, #s3 img ,#s4, #s4 img,#s5,#s5 img ,#s6,#s6 img,#s7,#s7 img,#s8,#s8 img,#s9,#s9 img{
+animation-name :c1 ; 
+animation-duration: 3s;
+animation-iteration-count:infinite;
+}
+@keyframes c1{
+from{
+border-color: blue;
+border-radius: 60%;
+}
+to{
+border-color: black;
+border-radius: 10%;
+}
+}
+body{
+margin: 0%;
 }
 
-/* products */
-
-.product-parah{
-text-align: center;}
-#product-last-card{
-margin-right: 82%;
-}
-#product-heading{
-    text-align: center;
-    }
-#searchbar{
-text-align:center ;
-margin-left: 45%;
-}
-.main{
+header{
 display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(0, 0, 255,0.5);
 }
-  
+header h1{
+font-style: italic;
+font-size: xx-large;
+}
+#h{
+border: 3px gold solid;
+font-size: x-large;
+color: black;  
+background-color: white;
+}
+nav a:hover{
+font-style: italic;}
 
+/*sweets*/
+#c1{
+position: absolute;
+left: 20%;
+top: 15%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c1 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c2 {
+position: absolute;
+left: 40%;
+top: 15%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;}
+#c2 img{
+border: 1px black solid;
+border-radius: 10%;
+}#c3{
+position: absolute;
+left: 60%;
+top: 15%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c3 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c4{
+position: absolute;
+left: 20%;
+top: 50%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c4 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c5 {
+position: absolute;
+left: 40%;
+top: 50%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;}
+#c5 img{
+border: 1px black solid;
+border-radius: 10%;}
+#c6{
+position: absolute;
+left: 60%;
+top: 50%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c6 img{
+border: 1px black solid;
+border-radius: 10%;   } 
+#c7{
+position: absolute;
+left: 20%;
+top:85%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c7 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c8 {
+position: absolute;
+left: 40%;
+top: 85%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;}
+#c8 img{
+border: 1px black solid;
+border-radius: 10%;}
+#c9{
+position: absolute;
+left: 60%;
+top: 85%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c9 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c10{
+position: absolute;
+left: 20%;
+top: 120%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c10 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c11 {
+position: absolute;
+left: 40%;
+top: 120%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;}
+#c11 img{
+border: 1px black solid;
+border-radius: 10%;}
+#c12{
+position: absolute;
+left: 60%;
+top: 120%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c12 img{
+border: 1px black solid;
+border-radius: 10%;
+}#c13{
+position: absolute;
+left: 20%;
+top: 155%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;
+}
+#c13 img{
+border: 1px black solid;
+border-radius: 10%;
+}
+#c14 {
+position: absolute;
+left: 40%;
+top: 155%;
+border: 1px black solid;
+height:200px ;
+border-radius: 10%;}
+#c14 img{
+border: 1px black solid;
+border-radius: 10%;}
+/*cake*/
+#s1{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+
+    }
+    #s1 img{
+    border: 1px black solid;
+    border-radius: 10%;
+    }#s2 {
+        position: absolute;
+        left: 40%;
+        top: 15%;
+}
+        #s2 img{
+        border: 1px black solid;
+        border-radius: 10%;
+        }#s3{
+        position: absolute;
+        left: 60%;
+        top: 15%;
+        }
+        #s3 img{
+        border: 1px black solid;
+        border-radius: 10%;
+        }
+        #s4{
+        position: absolute;
+        left: 20%;
+        top: 50%;
+
+        }
+        #s4 img{
+        border: 1px black solid;
+        border-radius: 10%;
+        }
+        #s5 {
+        position: absolute;
+        left: 40%;
+        top: 50%;
+;}
+        #s5 img{
+        border: 1px black solid;
+        border-radius: 10%;}
+        #s6{
+        position: absolute;
+        left: 60%;
+        top: 50%;
+;
+        }
+        #s6 img{
+        border: 1px black solid;
+        border-radius: 10%;   } 
+        #s7{
+        position: absolute;
+        left: 20%;
+        top:85%;
+
+        }
+        #s7 img{
+        border: 1px black solid;
+        border-radius: 10%;
+        }
+        #s8 {
+        position: absolute;
+        left: 40%;
+        top: 85%;
+;}
+        #s8 img{
+        border: 1px black solid;
+        border-radius: 10%;}
+        #s9{
+        position: absolute;
+        left: 60%;
+        top: 85%;
+
+        }
+        
+        #s9 img{
+        border: 1px black solid;
+        border-radius: 10%;
+        }
+        
